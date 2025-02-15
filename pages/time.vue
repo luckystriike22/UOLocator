@@ -3,13 +3,13 @@
 
     <v-row justify="center" class="mt-10">
         <v-col cols="10">
-            <v-date-input v-model="dateInput" label="Date input"></v-date-input>
+            <v-date-input v-model="dateInput" label="Date input" view-mode="year"></v-date-input>
         </v-col>
     </v-row>
         <v-row justify="center" class="mt-10">
-        <v-col cols="1">
-            <span>{{getDate}}</span>
-        </v-col>
+      
+            <span class="text-h3">It is the year: {{getDate}}</span>
+       
     </v-row>
     </div>
     
