@@ -3,6 +3,7 @@
         <v-col ols="12" md="6">
         <v-text-field v-model="name" label="Locator name:"></v-text-field>
         <v-text-field v-model="coordX" label="Coord x:" @keydown="filterInput"></v-text-field>
+        <span>X</span>
         <v-text-field v-model="CoordY" label="Coord y:"></v-text-field>
         <v-btn @click="copy" width="100%" color="#558B2F">Copy</v-btn>
         </v-col>
